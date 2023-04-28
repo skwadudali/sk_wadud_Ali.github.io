@@ -3294,9 +3294,9 @@ input, select, textarea {
 	#intro {
 		color: #ffffff;
 		padding: 8rem 4rem 6rem 4rem ;
-		-moz-align-items: center;
+		-moz-align-items:center;
 		-webkit-align-items: center;
-		-ms-align-items: center;
+		-ms-align-items:center;
 		align-items: center;
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3309,14 +3309,14 @@ input, select, textarea {
 		-moz-justify-content: -moz-flex-end;
 		-webkit-justify-content: -webkit-flex-end;
 		-ms-justify-content: -ms-flex-end;
-		justify-content: flex-end;
+		justify-content: flex-start;
 		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		position: relative;
 		cursor: default;
-		text-align: center;
+		text-align: left;
 		z-index: 1;
 		min-height: 100vh;
 	}
